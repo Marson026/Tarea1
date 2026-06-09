@@ -68,7 +68,7 @@ public class ServletBinario extends HttpServlet {
 		out.println("  </div>");
 		out.println("  <div style='background:#f0f4f8;border-left:4px solid #27ae60;padding:16px;border-radius:6px;margin-top:24px;font-size:13px;'>");
 		out.println("    <strong>👥 Integrantes:</strong> Brayan Edgardo Aguilar Aguilera, Zurisaday Alvarenga Almendárez, Cristhian Roberto Illa Sánchez, Emerson Ricardo Jiménez Lorenzo, Luis Alberto Colindres Ventura, Marlón Jared Saenz Blanco<br>");
-		out.println("    <strong>🔐 Cuenta:</strong> 20223456789");
+		out.println("    <strong>🔐 Cuenta:</strong> 20223456789, 2022");
 		out.println("  </div>");
 		out.println("</div>");
 		out.println("</body>");
