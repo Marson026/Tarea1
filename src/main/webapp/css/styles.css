@@ -274,3 +274,39 @@ tr:last-child td{
   border-bottom:none;
 }
 
+.integrantes-container{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:16px;
+	margin-top:24px;
+}
+
+.integrante-card{
+	background:linear-gradient(135deg, #5b9eff 0%, #4a84e6 100%);
+	color:white;
+	padding:16px;
+	border-radius:8px;
+	text-align:center;
+	box-shadow:0 4px 12px rgba(91,158,255,.2);
+}
+
+.integrante-card strong{
+	display:block;
+	font-size:13px;
+	margin-bottom:6px;
+	line-height:1.4;
+}
+
+.integrante-card .cuenta{
+	font-size:12px;
+	opacity:0.9;
+	border-top:1px solid rgba(255,255,255,.3);
+	padding-top:8px;
+	margin-top:8px;
+}
+
+@media (max-width:600px){
+	.integrantes-container{
+		grid-template-columns:1fr;
+	}
+}

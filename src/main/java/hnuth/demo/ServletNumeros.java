@@ -103,9 +103,15 @@ public class ServletNumeros extends HttpServlet {
         out.println("    <a class='boton' href='numeros.html'>🔄 Realizar otro análisis</a>");
         out.println("    <a class='sec' href='menu.html'>🏠 Volver al menú</a>");
         out.println("  </div>");
-        out.println("  <div style='background:#f0f4f8;border-left:4px solid #27ae60;padding:16px;border-radius:6px;margin-top:24px;font-size:13px;'>");
-        out.println("    <strong>👥 Integrantes:</strong> Brayan Edgardo Aguilar Aguilera, Zurisaday Alvarenga Almendárez, Cristhian Roberto Illa Sánchez, Emerson Ricardo Jiménez Lorenzo, Luis Alberto Colindres Ventura, Marlón Jared Saenz Blanco<br>");
-        out.println("    <strong>🔐 Cuenta:</strong> 2020123456789");
+        out.println("  <div style='margin-top:24px;'>");
+        out.println("    <h3 style='color:var(--primario);margin-bottom:16px;'>👥 Integrantes del Proyecto</h3>");
+        out.println("    <div class='integrantes-container'>");
+        out.println("      <div class='integrante-card'><strong>Cristhian Roberto Illa Sanchez</strong><div class='cuenta'>202210020278</div></div>");
+        out.println("      <div class='integrante-card'><strong>Brayan Edgardo Aguilar Aguilera</strong><div class='cuenta'>202320110146</div></div>");
+        out.println("      <div class='integrante-card'><strong>Emerson Ricardo Jimenez</strong><div class='cuenta'>202310080212</div></div>");
+        out.println("      <div class='integrante-card'><strong>Luis Alberto Colindres Ventura</strong><div class='cuenta'>201930060108</div></div>");
+        out.println("      <div class='integrante-card'><strong>Marlon Jared Saenz Blanco</strong><div class='cuenta'>202230010131</div></div>");
+        out.println("    </div>");
         out.println("  </div>");
         out.println("</div>");
         out.println("</body>");
