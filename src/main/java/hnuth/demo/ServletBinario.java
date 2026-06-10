@@ -74,6 +74,7 @@ public class ServletBinario extends HttpServlet {
 		out.println("      <div class='integrante-card'><strong>Emerson Ricardo Jimenez</strong><div class='cuenta'>202310080212</div></div>");
 		out.println("      <div class='integrante-card'><strong>Luis Alberto Colindres Ventura</strong><div class='cuenta'>201930060108</div></div>");
 		out.println("      <div class='integrante-card'><strong>Marlon Jared Saenz Blanco</strong><div class='cuenta'>202230010131</div></div>");
+		out.println("      <div class='integrante-card'><strong>Zurisaday Alvarenga Almendarez</strong><div class='cuenta'>202220020115 aolsmanete</div></div>");
 		out.println("    </div>");
 		out.println("  </div>");
 		out.println("</div>");
